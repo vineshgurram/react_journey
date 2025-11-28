@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Counter from "./Counter";
-import DayFive from "./DayFive";
-import DayFour from "./DayFour";
-import DayOne from "./DayOne";
-import DayThree from "./DayThree";
-import DayTwo from "./DayTwo";
+import Counter from "./tasks/Counter";
+import DayOne from "./days/DayOne";
+import DayTwo from "./days/DayTwo";
+import DayThree from "./days/DayThree";
+import DayFour from "./days/DayFour";
+import DayFive from "./days/DayFive";
 import ExerciseEight from "./exercise/ExerciseEight";
 import ExerciseFive from "./exercise/ExerciseFive";
 import ExcerciseFour from "./exercise/ExerciseFour";
@@ -14,8 +14,9 @@ import ExerciseSeven from "./exercise/ExerciseSeven";
 import ExerciseSix from "./exercise/ExerciseSix";
 import ExcerciseThree from "./exercise/ExerciseThree";
 import ExcerciseTwo from "./exercise/ExerciseTwo";
-import ProfileCard from "./ProfileCard";
-import Welcome from "./Welcome";
+import ProfileCard from "./tasks/ProfileCard";
+import Welcome from "./tasks/Welcome";
+import PropsDrilling from "./concepts/propsDrilling/PropsDrilling";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,8 +39,10 @@ function App() {
       {/*<ExerciseFive />*/}
       {/*<ExerciseSix />*/}
       {/*<ExerciseSeven />*/}
-      <ExerciseEight />
-      <ExerciseNine />
+      {/*<ExerciseEight />*/}
+      {/*<ExerciseNine />*/}
+
+      <PropsDrilling count={count} setCount={setCount} />
     </>
   );
 }

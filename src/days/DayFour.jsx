@@ -1,7 +1,7 @@
-import Bio from "./Bio";
-import IfElse from "./IfElse";
-import LogicalAnd from "./LogicalAnd";
-import Ternary from "./Ternary";
+import Bio from "../tasks/Bio";
+import IfElse from "../concepts/IfElse";
+import LogicalAnd from "../concepts/LogicalAnd";
+import Ternary from "../concepts/Ternary";
 
 export default function DayFour() {
   const conditionalRendering = [
