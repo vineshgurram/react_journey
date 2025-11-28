@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid grey;
+  padding: 20px 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  grid-gap: 20px;
+}
+
+.avatar img {
+  height: 110px;
+  width: 90px;
+  max-width: 100%;
+}
